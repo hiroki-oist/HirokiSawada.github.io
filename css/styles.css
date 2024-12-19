@@ -10839,16 +10839,15 @@ body {
 }
 h1, .h1,
 h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  text-transform: uppercase;
+.h2 {
+  text-transform: uppercase; /* 大文字化を維持 */
+}
+
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  text-transform: none; /* 大文字化を解除 */
 }
 
 h1, .h1 {
